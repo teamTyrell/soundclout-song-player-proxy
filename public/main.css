@@ -1,0 +1,107 @@
+
+body {
+  background-color: #F2F2F2;
+}
+
+nav {
+  background-color: #333333;
+  height: 46px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header {
+  height: 380px;
+  background-color: #A9A9A9;
+}
+
+main {
+  background-color: white;
+  display: flex;
+}
+
+section {
+  padding-top: 20px;
+  flex: 1;
+  min-height: 875px;
+}
+
+#comments-section {
+  padding-right: 30px;
+  border-right: 1px solid #F2F2F2;
+  min-height: 875px;
+}
+
+aside {
+  margin-top: 40px;
+  margin-left: 30px;
+  width: 300px;
+  min-height: 875px;
+  border: 1px solid #F2F2F2;
+}
+
+.container {
+  margin: auto;
+  width: 98%;
+  max-width: 1240px;
+  padding: 0px 30px;
+}
+.container-header {
+  margin-top: 46px;
+  padding: 0px;
+}
+/* Break Points */
+@media only screen and (max-width: 1240px) {
+
+  .container {
+    width: 100%;
+    max-width: 1080px;
+  }
+
+}
+
+@media only screen and (max-width: 1080px) {
+
+  .container {
+    min-width: 960px;
+    max-width: 960px;
+  }
+}
+
+/* Fonts */
+@font-face {
+  font-family: Interstate;
+  src: url('../assets/fonts/Interstate/interstate.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Interstate;
+  src: url('../assets/fonts/Interstate/interstate-bold.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Interstate;
+  src: url('../assets/fonts/Interstate/interstate-light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Interstate;
+  src: url('../assets/fonts/Interstate/interstate-extralight.ttf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Lucida Grande";
+  src: url('../assets/fonts/Lucida\ Grande/LucidaGrande.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lucida Grande";
+  src: url('../assets/fonts/Lucida\ Grande/LucidaGrandeBold.ttf');
+  font-weight: 500;
+}
