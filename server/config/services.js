@@ -43,13 +43,13 @@
 module.exports = {
   service1: {
     api: '/library/:id',
-    url: 'http://localhost:3001',
+    url: 'http://3.17.208.56:3001',
     bundle: 'bundle.js',
   },
   service2: {
-    api: ['/songs', '/songs/:id/comments', '/artists/:id', '/songs', '/users', '/users/:id'],
-    url: 'http://localhost:8080',
-    bundle: 'comments.bundle.js',
+    api: ['/songs', '/songs/:id/comments', '/artists/:id', '/songs', '/users', '/users/:id', '/albums/:id', '/songs/:id/playlists', '/users/:id'],
+    url: 'http://35.183.111.233:8080',
+    bundle: '/js/comments.bundle.js',
   }
   // service3: {
   //   api: 'FIX_ME',
